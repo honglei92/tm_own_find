@@ -19,6 +19,20 @@ allprojects {
     repositories {
         google()
         jcenter()
+        maven { url "http://repo.baichuan-android.taobao.com/content/groups/BaichuanRepositories/" }
+        maven {url 'https://dl.bintray.com/youzanyun/maven/'}
+        maven { url "https://dl.bintray.com/thelasterstar/maven/" }
+        maven { url "https://dl.bintray.com/ingxin/maven" }
+        maven { url "http://lib.gcssloop.com/repository/gcssloop-central/" }
+        maven { url "https://dl.bintray.com/liubin0304/TenmaVentures" }
+        maven { url "https://jitpack.io" }
+        maven { url "https://dl.bintray.com/wuchuncheng/TmTeam" }//这是框架的地址
+        maven {
+            url  "https://dl.bintray.com/chuangliu/tianma"
+        }
+        maven { url "https://dl.bintray.com/schlhjtm/maven"}
+        maven { url "https://dl.bintray.com/zhouyou/TenmaVentures"}
+        maven { url "http://developer.huawei.com/repo"}
     }
 }
 
