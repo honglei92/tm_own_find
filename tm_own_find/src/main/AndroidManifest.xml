@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.tianma.tm_own_find">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application>
+        <activity android:name=".view.FindMainActivity" />
+        <activity
+            android:name=".view.FindThreeFragmentActivity"
+            android:configChanges="screenSize|orientation"
+            android:screenOrientation="portrait"
+            android:theme="@style/BlueTheme">
+            <intent-filter>
+                <action android:name="${applicationId}.find.normal" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.FindThreeFragmentAutoFullActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/BlueTheme">
+            <intent-filter>
+                <action android:name="${applicationId}.find.normal.autofull" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".view.discover_new.FindDefaultMoreActivity"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

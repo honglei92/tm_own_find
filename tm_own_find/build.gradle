@@ -1,0 +1,70 @@
+apply plugin: 'com.android.library'
+apply plugin: 'com.github.dcendents.android-maven'
+apply from: 'bintray.gradle'
+apply plugin: 'kotlin-android'
+group = "com.github.honglei92"
+
+
+Properties properties = new Properties()
+properties.load(project.rootProject.file('local.properties').newDataInputStream())
+
+android {
+    compileSdkVersion 27
+
+
+
+    defaultConfig {
+        minSdkVersion 21
+        targetSdkVersion 27
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'com.android.support:appcompat-v7:27.1.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation 'com.android.support:support-v4:27.1.0'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
+//    implementation project(path: ':tm_new_time')
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    compile 'com.tenma.ventures:tm_share_ss:1.2.19'
+    implementation 'com.tenma.ventures:tm_core:1.2.36'
+    implementation 'android.arch.lifecycle:extensions:1.1.0'
+
+    /*轮播开始*/
+    implementation 'com.youth.banner:banner:1.4.10'  //最新版本
+    compile 'com.android.support:design:27.1.0'  //滑动
+    compile 'com.android.support:percent:27.1.0' //百分比布局
+    compile 'com.makeramen:roundedimageview:2.3.0'//圆角图片
+
+    compile 'com.jakewharton.rxbinding2:rxbinding:2.0.0'
+    compile 'com.jakewharton.rxbinding2:rxbinding-support-v4:2.0.0'
+    compile 'com.jakewharton.rxbinding2:rxbinding-appcompat-v7:2.0.0'
+
+    implementation 'me.yokeyword:fragmentation:1.3.6'
+    implementation 'com.tianma.ventures:tm_new_times:1.0.7'
+}
+
+
+
+def siteUrl = ''   // 项目的主页,这个为什么是空的？？
+def gitUrl = ''   // Git仓库的url
+
+version = "1.2.3" //发布版本号
+//最终引用形式，如compile 'com.tenma.ventures:tm_share_ss:1.0.16'，其中tm_share_ss在后面配置

@@ -1,0 +1,153 @@
+<resources>
+    <!-- component space （width or height) -->
+    <dimen name="component_space">15dp</dimen>
+    <dimen name="component_small_space">10dp</dimen>
+    <dimen name="component_smaller_space">5dp</dimen>
+    <dimen name="component_big_space">20dp</dimen>
+    <!-- text view height -->
+    <dimen name="text_height">40dp</dimen>
+    <!-- 导航条的高度 -->
+    <dimen name="nav_bar_height">50dp</dimen>
+    <dimen name="nav_font_size">20sp</dimen>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="button_text_size">14sp</dimen>
+    <dimen name="expand_tab_item_height">45dp</dimen>
+    <dimen name="expand_tab_eara_height">380dp</dimen>
+    <dimen name="head_bar_height">50dp</dimen>
+    <dimen name="slide_menu_behind_offset">30dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="slide_menu_shadow_width">20dp</dimen>
+
+    <integer name="num_cols">1</integer>
+
+    <dimen name="tv_margin_bottom">5dp</dimen>
+    <dimen name="widget_margin_bottom">10dp</dimen>
+    <dimen name="widget_margin_bottom2">20dp</dimen>
+    <dimen name="widget_edittext_height">42dp</dimen>
+    <dimen name="widget_btn_height">42dp</dimen>
+    <dimen name="widget_header_text_size">20sp</dimen>
+    <dimen name="widget_text_size">18sp</dimen>
+    <dimen name="widget_checkbox_size">30dp</dimen>
+    <dimen name="widget_margin_left_right">10dp</dimen>
+
+    <dimen name="nav_user_img_size">50dp</dimen>
+    <dimen name="nav_img_text_dimen">23dp</dimen>
+    <dimen name="nav_text_size">15sp</dimen>
+    <dimen name="article_title_size">18sp</dimen>
+    <dimen name="article_intro_size">16sp</dimen>
+    <dimen name="article_text_small_size">13sp</dimen>
+    <dimen name="icity_title_height">50dp</dimen>
+    <dimen name="radio_height">60dp</dimen>
+    <dimen name="home_radio_height">60dp</dimen>
+
+    <!--<dimen name="coupon_tag_size">40dp</dimen>-->
+    <!--<dimen name="coupon_number_size">80dp</dimen>-->
+
+    <!-- 看风景 -->
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="dimen_0_5">0.5dp</dimen>
+    <dimen name="dimen_1">1dp</dimen>
+    <dimen name="dimen_3">3dp</dimen>
+    <dimen name="dimen_4">4dp</dimen>
+    <dimen name="dimen_5">5dp</dimen>
+    <dimen name="dimen_7">7dp</dimen>
+    <dimen name="dimen_8">8dp</dimen>
+    <dimen name="dimen_10">10dp</dimen>
+    <dimen name="dimen_12">12dp</dimen>
+    <dimen name="dimen_13">13dp</dimen>
+    <dimen name="dimen_15">15dp</dimen>
+    <dimen name="dimen_20">20dp</dimen>
+    <dimen name="dimen_23">23dp</dimen>
+    <dimen name="dimen_25">25dp</dimen>
+    <dimen name="dimen_30">30dp</dimen>
+    <dimen name="dimen_32">32dp</dimen>
+    <dimen name="dimen_35">35dp</dimen>
+    <dimen name="dimen_40">40dp</dimen>
+    <dimen name="dimen_45">45dp</dimen>
+    <dimen name="dimen_52">52dp</dimen>
+    <dimen name="dimen_56">56dp</dimen>
+    <dimen name="dimen_60">60dp</dimen>
+    <dimen name="dimen_66">66dp</dimen>
+    <dimen name="dimen_75">75dp</dimen>
+    <dimen name="dimen_48">48dp</dimen>
+    <dimen name="dimen_44">44dp</dimen>
+    <dimen name="dimen_80">80dp</dimen>
+    <dimen name="dimen_92">92dp</dimen>
+    <dimen name="dimen_100">100dp</dimen>
+    <dimen name="dimen_120">120dp</dimen>
+    <dimen name="dimen_150">150dp</dimen>
+    <dimen name="dimen_200">200dp</dimen>
+    <dimen name="dimen_220">220dp</dimen>
+    <dimen name="dimen_192">192dip</dimen>
+    <dimen name="dimen_50">50dp</dimen>
+    <dimen name="dimen_210">210dp</dimen>
+    <dimen name="dimen_17">17dp</dimen>
+    <dimen name="dimen_140">140dp</dimen>
+    <dimen name="dimen_180">180dp</dimen>
+    <dimen name="dimen_130">130dp</dimen>
+    <!-- text size -->
+    <dimen name="text_size_12">12sp</dimen>
+    <dimen name="text_size_13">13sp</dimen>
+    <dimen name="text_size_14">14sp</dimen>
+    <dimen name="text_size_15">15sp</dimen>
+    <dimen name="text_size_16">16sp</dimen>
+    <dimen name="text_size_18">18sp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="text_size_22">22sp</dimen>
+    <dimen name="text_size_24">24sp</dimen>
+    <dimen name="text_size_36">36sp</dimen>
+
+    <dimen name="list_item_title">16sp</dimen>
+    <dimen name="list_item_content">14sp</dimen>
+
+    <!-- 字号定义 - 极限大 -->
+    <dimen name="font_extreme">60sp</dimen>
+    <!-- 字号定义 - 超大 -->
+    <dimen name="font_super">32sp</dimen>
+    <dimen name="font_super_largest">28sp</dimen>
+    <!-- 字号定义 - 最大 -->
+    <dimen name="font_largest">24sp</dimen>
+    <!-- 字号定义 - 较大 -->
+    <dimen name="font_larger">22sp</dimen>
+    <!-- 字号定义 - 大 -->
+    <dimen name="font_large">20sp</dimen>
+    <dimen name="font_large_medium">19sp</dimen>
+    <!-- 字号定义 - 中号 -->
+    <dimen name="font_medium">18sp</dimen>
+    <!-- 字号定义 - 小 -->
+    <dimen name="font_small">16sp</dimen>
+    <!-- 字号定义 - 很小 -->
+    <dimen name="font_smaller">14sp</dimen>
+    <!-- 字号定义 - 最小小 -->
+    <dimen name="font_smallest">12sp</dimen>
+    <!-- 字号定义 - 最小小 -->
+    <dimen name="font_smallest_ex1">10sp</dimen>
+    <!-- 字号定义 - 最小小 -->
+    <dimen name="font_smallest_ex2">8sp</dimen>
+    <!-- 字号定义 - 最小小 -->
+    <dimen name="font_background">120sp</dimen>
+    <!-- 字号定义 - navibar字体 -->
+    <dimen name="font_smaller_px">14px</dimen>
+
+    <dimen name="loading_text_size">16sp</dimen>
+
+
+    <!-- UGC -->
+    <dimen name="ugc_ioffer_top_bar_height">48dp</dimen>
+    <dimen name="ugc_ioffer_popup_menu_height">300dp</dimen>
+    <dimen name="ugc_ioffer_input_item_height">40dp</dimen>
+    <dimen name="ugc_ioffer_input_text_size">16sp</dimen>
+    <dimen name="ugc_ioffer_button_height">40dp</dimen>
+    <dimen name="ugc_ioffer_add_upload_height">38dp</dimen>
+
+    <dimen name="dgv_overlap_if_switch_straight_line">16dp</dimen>
+    <dimen name="dimen_6">6dp</dimen>
+    <dimen name="dimen_27">27dp</dimen>
+    <dimen name="dimen_2">2dp</dimen>
+    <dimen name="dimen_90">90dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/find_main_bg_color"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/header_ic"
+        layout="@layout/find_base_header" />
+
+    <FrameLayout
+        android:id="@+id/user_center_ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+<!--    <WebView
+        android:id="@+id/main_webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="16dp"
+        android:scaleType="fitXY"/>-->
+
+</LinearLayout>

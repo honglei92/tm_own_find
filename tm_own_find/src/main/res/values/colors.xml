@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="find_white">#ffffff</color>
+    <color name="find_main_bg_color">#f5f5f5</color>
+    <color name="find_uc_main_bg">#1478d6</color>
+    <color name="find_uc_login_line">#999999</color>
+    <color name="find_uc_login_text_color">#999999</color>
+    <color name="find_uc_validate_btn_disable_color">#DCDCDC</color>
+
+    <color name="find_common_green_btn_color">#05c047</color>
+    <color name="find_common_green_btn_pressed_color">#05a43d</color>
+    <color name="find_common_dark_gray_text_color">#313131</color>
+    <color name="find_common_light_gray_text_color">#c1c1c1</color>
+    <color name="find_common_light_gray_text_color2">#666666</color>
+    <color name="find_common_light_gray_text_color3">#999999</color>
+    <color name="find_common_light_gray_text_color4">#777777</color>
+    <color name="find_common_gray_text_color">#8c8c8c</color>
+    <color name="find_common_gray_text_color_2">#656667</color>
+    <color name="find_common_gray_text_color_3">#999999</color>
+    <color name="find_common_gray_text_color_4">#333333</color>
+    <color name="find_common_gray_text_color_pressed">#6b6b6b</color>
+    <color name="find_common_divider_color">#eff2f4</color>
+    <color name="find_common_grey_text_color">#626262</color>
+    <color name="find_common_light_grey_color">#bfbfbf</color>
+    <color name="find_common_red_color">#f22828</color>
+
+    <!-- ##################夜间模式/日间模式################## -->
+    <color name="find_basics_bg_color">#f5f5f5</color>
+    <color name="find_basics_bg_color_night">#383838</color>
+
+    <color name="find_user_head_bg_color">@color/find_uc_main_bg</color>
+    <color name="find_user_head_bg_color_night">#383838</color>
+
+    <color name="find_main_text_color">@color/find_uc_main_bg</color>
+    <color name="find_main_text_color_night">#ffffff</color>
+
+    <color name="find_main_button_bg_color">@color/find_uc_main_bg</color>
+    <color name="find_main_button_bg_color_night">#434343</color>
+
+    <color name="find_base_header_bg_color">@color/find_uc_main_bg</color>
+    <color name="find_base_header_bg_color_night">#434343</color>
+
+    <color name="find_line_color">#eff2f4</color>
+    <color name="find_line_color_night">#292929</color>
+
+    <color name="find_item_bg_color">#ffffff</color>
+    <color name="find_item_bg_color_night">#434343</color>
+
+    <color name="find_wheel_bg_color">#ffffff</color>
+    <color name="find_wheel_bg_color_night">#383838</color>
+
+    <color name="find_wheel_center_text_color">@color/find_uc_main_bg</color>
+    <color name="find_wheel_center_text_color_night">#ffffff</color>
+
+    <color name="find_wheel_btn_color">@color/find_uc_main_bg</color>
+    <color name="find_wheel_btn_color_night">#ffffff</color>
+
+    <color name="find_wheel_title_color">@color/find_common_dark_gray_text_color</color>
+    <color name="find_wheel_title_color_night">#ffffff</color>
+    <color name="find_uc_dark_gray_text">#383838</color>
+
+    <!-- ##################夜间模式/日间模式################## -->
+    <color name="find_black">#000000</color>
+    <color name="find_transparent">#00000000</color>
+</resources>

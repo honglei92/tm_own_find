@@ -1,0 +1,3 @@
+include ':tm_own_find'
+include ':app'
+rootProject.name = "Github"

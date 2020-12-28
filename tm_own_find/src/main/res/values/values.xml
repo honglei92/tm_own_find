@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr format="color" name="primary"/>
+    <attr format="color" name="secondary_text"/>
+    <attr format="color" name="t_divider"/>
+
+    <style name="BlueTheme" parent="Theme.AppCompat.Light">
+        <!-- Customize your theme here. -->
+
+        <item name="primary">@color/colorPrimary</item>
+        <item name="t_divider">@color/colorPrimary</item>
+        <item name="secondary_text">@color/colorPrimary</item>
+
+    </style>
+</resources>
